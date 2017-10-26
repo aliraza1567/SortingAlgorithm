@@ -1,6 +1,6 @@
 ﻿namespace SortingAlgorithm.WebApi.Models
 {
-    public class SortingRequestDto
+    public class RequestDto
     {
         public string[] InputString { get; set; }
     }

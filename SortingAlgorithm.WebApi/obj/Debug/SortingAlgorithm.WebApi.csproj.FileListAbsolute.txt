@@ -20,7 +20,3 @@ D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgor
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgorithm.WebApi.csproj.CoreCompileInputs.cache
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgorithm.WebApi.dll
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgorithm.WebApi.pdb
-D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Ninject.dll
-D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Ninject.Web.Common.dll
-D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Ninject.xml
-D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Ninject.Web.Common.xml
