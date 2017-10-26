@@ -14,9 +14,25 @@ namespace SortingAlgorithm.WebApi.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult SelectionSort([FromBody] SortingRequestDto requestDto)
+        public IHttpActionResult SelectionSort([FromBody] RequestDto requestDto)
         {
             var result = _sorting.SelectionSort(requestDto.InputString);
+
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public IHttpActionResult InsertionSort([FromBody] RequestDto requestDto)
+        {
+            var result = _sorting.InsertionSort(requestDto.InputString);
+
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public IHttpActionResult BubbleSort([FromBody] RequestDto requestDto)
+        {
+            var result = _sorting.BubbleSort(requestDto.InputString);
 
             return Ok(result);
         }
