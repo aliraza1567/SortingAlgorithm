@@ -16,7 +16,7 @@ namespace SortingAlgorithm.WebApi.Controllers
         [HttpPost]
         public IHttpActionResult SelectionSort([FromBody] RequestDto requestDto)
         {
-            
+
 
             return Ok("");
         }

@@ -1,6 +1,6 @@
-﻿using SortingAlgorithm.Operations.Conversion;
-using SortingAlgorithm.WebApi.Models;
+﻿using SortingAlgorithm.WebApi.Models;
 using System.Web.Http;
+using Convert = SortingAlgorithm.Operations.Conversion.Convert;
 
 namespace SortingAlgorithm.WebApi.Controllers
 {
