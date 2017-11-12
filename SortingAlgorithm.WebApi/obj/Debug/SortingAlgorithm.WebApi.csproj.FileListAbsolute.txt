@@ -17,3 +17,6 @@ D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\bin\System.Web.
 D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\bin\System.Web.Http.WebHost.xml
 D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgorithm.WebApi.dll
 D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\obj\Debug\SortingAlgorithm.WebApi.pdb
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\bin\Swashbuckle.Core.dll
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.WebApi\bin\WebActivatorEx.dll
