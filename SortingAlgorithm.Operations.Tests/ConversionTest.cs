@@ -1,0 +1,28 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Convert = SortingAlgorithm.Operations.Conversion.Convert;
+
+namespace SortingAlgorithm.Operations.Tests1
+{
+    [TestClass]
+    public class ConversionTest
+    {
+        public static string TestString { get; } = "Mesut Ozil";
+        public static string[] TestArray { get; } = { "Mesut", "Ozil" };
+
+        [TestMethod]
+        public void StringToArrayTest()
+        {
+            var actual = Conversion.Convert.StringToArray(TestString);
+
+            CollectionAssert.AreEqual(TestArray, actual);
+        }
+
+        [TestMethod]
+        public void ArrayToStringTest()
+        {
+            var actual = Convert.ArrayToString(TestArray);
+
+            Assert.AreEqual(TestString, actual);
+        }
+    }
+}
