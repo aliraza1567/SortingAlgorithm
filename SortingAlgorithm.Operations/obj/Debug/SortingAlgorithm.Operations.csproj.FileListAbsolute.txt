@@ -3,3 +3,8 @@ D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.Operations\bin\Debug\SortingA
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.csproj.CoreCompileInputs.cache
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.dll
 D:\Work\Projects\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.pdb
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.Operations\bin\Debug\SortingAlgorithm.Operations.dll
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.Operations\bin\Debug\SortingAlgorithm.Operations.pdb
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.csproj.CoreCompileInputs.cache
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.dll
+D:\Work\Projects\GitHub\SortingAlgorithm\SortingAlgorithm.Operations\obj\Debug\SortingAlgorithm.Operations.pdb
