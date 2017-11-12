@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Convert = SortingAlgorithm.Operations.Conversion.Convert;
 
-namespace SortingAlgorithm.Operations.Tests1
+namespace SortingAlgorithm.Operations.Tests
 {
     [TestClass]
     public class ConversionTest
@@ -12,7 +12,7 @@ namespace SortingAlgorithm.Operations.Tests1
         [TestMethod]
         public void StringToArrayTest()
         {
-            var actual = Conversion.Convert.StringToArray(TestString);
+            var actual = Convert.StringToArray(TestString);
 
             CollectionAssert.AreEqual(TestArray, actual);
         }

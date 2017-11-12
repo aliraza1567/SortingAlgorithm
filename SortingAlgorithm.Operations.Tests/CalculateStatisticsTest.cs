@@ -2,7 +2,7 @@
 using SortingAlgorithm.Operations.Model;
 using SortingAlgorithm.Operations.Statistics;
 
-namespace SortingAlgorithm.Operations.Tests1
+namespace SortingAlgorithm.Operations.Tests
 {
     [TestClass]
     public class CalculateStatisticsTest

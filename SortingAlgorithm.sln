@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm.Operations
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm.Operations.Tests", "SortingAlgorithm.Operations.Tests\SortingAlgorithm.Operations.Tests.csproj", "{3A37275C-D6CA-41D9-8297-D4883A424505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithm.WebApi", "SortingAlgorithm.WebApi\SortingAlgorithm.WebApi.csproj", "{866E2C1A-3DDF-4507-A9AD-0FB739837BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3A37275C-D6CA-41D9-8297-D4883A424505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A37275C-D6CA-41D9-8297-D4883A424505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A37275C-D6CA-41D9-8297-D4883A424505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866E2C1A-3DDF-4507-A9AD-0FB739837BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866E2C1A-3DDF-4507-A9AD-0FB739837BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866E2C1A-3DDF-4507-A9AD-0FB739837BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866E2C1A-3DDF-4507-A9AD-0FB739837BEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
