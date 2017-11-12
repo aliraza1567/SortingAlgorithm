@@ -1,6 +1,6 @@
-﻿using SortingAlgorithm.WebApi.Models;
+﻿using SortingAlgorithm.Operations.Conversion;
+using SortingAlgorithm.WebApi.Models;
 using System.Web.Http;
-using Convert = SortingAlgorithm.Operations.Conversion.Convert;
 
 namespace SortingAlgorithm.WebApi.Controllers
 {
@@ -9,7 +9,7 @@ namespace SortingAlgorithm.WebApi.Controllers
         [HttpPost]
         public IHttpActionResult StringToArray([FromBody] RequestDto requestDto)
         {
-            var result = Convert.ArrayToString(requestDto.InputString);
+            var result = Conversion.ArrayToString(requestDto.InputString);
 
             return Ok(result);
         }
@@ -17,7 +17,7 @@ namespace SortingAlgorithm.WebApi.Controllers
         [HttpPost]
         public IHttpActionResult ArrayToStringTest([FromBody] RequestDto requestDto)
         {
-            var result = Convert.ArrayToString(requestDto.InputString);
+            var result = Conversion.ArrayToString(requestDto.InputString);
 
             return Ok(result);
         }

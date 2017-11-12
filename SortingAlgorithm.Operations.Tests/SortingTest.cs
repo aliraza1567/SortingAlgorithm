@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SortingAlgorithm.Operations.Sortings;
-using Convert = SortingAlgorithm.Operations.Conversion.Convert;
 
 namespace SortingAlgorithm.Operations.Tests1
 {
@@ -16,7 +15,7 @@ namespace SortingAlgorithm.Operations.Tests1
         {
             _sorting = new Sorting();
 
-            var actual = Conversion.Convert.ArrayToString(_sorting.SelectionSort(Conversion.Convert.StringToArray(TestString)));
+            var actual = Conversion.Conversion.ArrayToString(_sorting.SelectionSort(Conversion.Conversion.StringToArray(TestString)));
 
             Assert.AreEqual(ExpectedResult, actual);
         }
@@ -26,7 +25,7 @@ namespace SortingAlgorithm.Operations.Tests1
         {
             _sorting = new Sorting();
 
-            var actual = Conversion.Convert.ArrayToString(_sorting.InsertionSort(Conversion.Convert.StringToArray(TestString)));
+            var actual = Conversion.Conversion.ArrayToString(_sorting.InsertionSort(Conversion.Conversion.StringToArray(TestString)));
 
             Assert.AreEqual(ExpectedResult, actual);
         }
@@ -36,7 +35,7 @@ namespace SortingAlgorithm.Operations.Tests1
         {
             _sorting = new Sorting();
 
-            var actual = Conversion.Convert.ArrayToString(_sorting.BubbleSort(Convert.StringToArray(TestString)));
+            var actual = Conversion.Conversion.ArrayToString(_sorting.BubbleSort(Conversion.Conversion.StringToArray(TestString)));
 
             Assert.AreEqual(ExpectedResult, actual);
         }

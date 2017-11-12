@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conversion\Convert.cs" />
+    <Compile Include="Conversion\Conversion.cs" />
     <Compile Include="Sortings\ISorting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sortings\Sorting.cs" />

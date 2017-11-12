@@ -2,7 +2,7 @@
 
 namespace SortingAlgorithm.Operations.Conversion
 {
-    public static class Convert
+    public static class Conversion
     {
         public static string[] StringToArray(string text)
         {
